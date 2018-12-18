@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { PokedexComponent } from './pokedex/pokedex.component';
 import { TeamComponent } from './team/team.component';
 import { BattleComponent } from './battle/battle.component';
+import { NgxPopper } from 'angular-popper';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BattleComponent } from './battle/battle.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPopper
   ],
   providers: [],
   bootstrap: [AppComponent]
